@@ -1,0 +1,101 @@
+@import 'tailwindcss';
+
+/* FONTS */
+@font-face {
+    font-family: Nunito;
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Italic;
+    src: url('../fonts/Nunito-Italic.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Medium;
+    src: url('../fonts/Nunito-Medium.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Medium-Italic;
+    src: url('../fonts/Nunito-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Light;
+    src: url('../fonts/Nunito-Light.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Light-Italic;
+    src: url('../fonts/Nunito-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Bold;
+    src: url('../fonts/Nunito-Bold.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Bold-Italic;
+    src: url('../fonts/Nunito-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Black;
+    src: url('../fonts/Nunito-Black.ttf');
+}
+
+@font-face {
+    font-family: Nunito-Black-Italic;
+    src: url('../fonts/Nunito-BlackItalic.ttf');
+}
+
+@theme {
+    --font-nunito: Nunito;
+    --font-nunito-italic: Nunito-Italic;
+
+    --font-nunito-medium: Nunito-Medium;
+    --font-nunito-medium-italic: Nunito-Medium-Italic;
+
+    --font-nunito-light: Nunito-Light;
+    --font-nunito-light-italic: Nunito-Light-Italic;
+
+    --font-nunito-bold: Nunito-Bold;
+    --font-nunito-bold-italic: Nunito-Bold-Italic;
+
+    --font-nunito-black: Nunito-Black;
+    --font-nunito-black-italic: Nunito-Black-Italic;
+}
+
+/* COLOR PALETTE */
+@theme
+{
+    --color-primary: #DAD7CD;
+    --color-secondary: #503828;
+
+    --color-tertiary: #ECEBE5;
+    --color-quaternary: #C2BDB1;
+
+    --color-quinary: #6A4A36;
+    --color-sextiary: #3A281D;
+}
+
+/* RESPONSIVE DESIGN */
+@theme {
+
+    /* PHONE */
+    --breakpoint-xs: 18.75rem !important; /* 300px Vertical */
+    --breakpoint-2xs: 25.75rem !important; /* 412px Vertical */
+
+    /* TABLETS */
+    --breakpoint-sm: 37.5rem !important; /* 600px Vertical */ 
+    --breakpoint-2sm: 52.5rem !important; /* 840px Horizontal */
+    --breakpoint-3sm: 64rem !important; /* 1024px Horizontal */
+
+    /* LAPTOPS y DESKTOP */
+    --breakpoint-md: 80rem !important; /* 1280px Vertical */
+    --breakpoint-2md: 100rem !important; /* 1600px Vertical */
+    --breakpoint-3md: 120rem !important /* 1920px Vertical */
+}
+
