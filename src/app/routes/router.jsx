@@ -1,15 +1,15 @@
 import React from "react";
-import { Router as Router, Routes, Route} from "react-router";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router";
 import SignUp from '../../features/signUp/page/signUp.jsx';
 
 function RouterApp()
 {
     return(
-        <Router>
+        <BrowserRouter>
             <Routes>
-                <Route path="/SignUp" element={<SignUp/>} />
+                <Route path="/SignUp" element={<SignUp />} />
             </Routes>
-        </Router>
+        </BrowserRouter>
     );
 };
 
